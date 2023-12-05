@@ -223,6 +223,10 @@ namespace COMPROG_TEST_RUN
                         ObserveScene = true;
                         UN2();
                        break;
+                    default:
+                    Console.WriteLine("Invalid option. Try again.");
+                    Observe();
+                    break;
 
                 }
 
@@ -266,6 +270,7 @@ namespace COMPROG_TEST_RUN
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
+                        Observe();
                         break;
                    
 
@@ -590,6 +595,7 @@ namespace COMPROG_TEST_RUN
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
+                        tup();
                         break;
 
                 }
@@ -634,6 +640,7 @@ namespace COMPROG_TEST_RUN
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
+                        tup();
                         break;
 
                 }
@@ -674,6 +681,7 @@ namespace COMPROG_TEST_RUN
                     break;
                 default:
                     Console.WriteLine("Invalid option. Try again.");
+                    Ayala1();
                     break;
 
             }
@@ -725,6 +733,7 @@ namespace COMPROG_TEST_RUN
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
+                        Ayala2();
                         break;
 
                 }
@@ -771,6 +780,7 @@ namespace COMPROG_TEST_RUN
                         break;
                     default:
                         Console.WriteLine("Invalid option. Try again.");
+                        Ayala2();
                         break;
 
                 }
@@ -977,6 +987,7 @@ namespace COMPROG_TEST_RUN
                         Console.WriteLine("Invalid option. Try again");
                           sanity+=15;
                         Console.ReadKey();
+                        UN2();
                         break;
 
 
@@ -1031,6 +1042,7 @@ namespace COMPROG_TEST_RUN
                         Console.WriteLine("Invalid option. Try again");
                  
                         Console.ReadKey();
+                        UN2();
                         break;
 
 
